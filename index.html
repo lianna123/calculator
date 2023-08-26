@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="outer">
+    <div id="screen"><p id="text"></p></div>
+    <table>
+       <tr>
+        <button class="opp" id="top" onclick="parenth('(')">(</button>
+        <button class="opp" id="top" onclick="parenth(')')">)</button>
+        <button class="opp" id="top" onclick="opp('^')">^</button>
+        <button class="spc" id="top" onclick="dele()">del</button>
+      </tr>
+      <tr>
+        <button class="num" onclick="num(1)">1</button>
+        <button class="num" onclick="num(2)">2</button>
+        <button class="num" onclick="num(3)">3</button>
+        <button class="opp" onclick="opp('+')">+</button>
+      </tr>
+      <tr>
+        <button class="num" onclick="num(4)">4</button>
+        <button class="num" onclick="num(5)">5</button>
+        <button class="num" onclick="num(6)">6</button>
+        <button class="opp" onclick="opp('-')">-</button>
+      </tr>
+      <tr>
+        <button class="num" onclick="num(7)">7</button>
+        <button class="num" onclick="num(8)">8</button>
+        <button class="num" onclick="num(9)">9</button>
+        <button class="opp" onclick="opp('×')">×</button>
+      </tr>
+      <tr>
+        <button class="num" onclick="num(0)">0</button>
+        <button class="num" onclick="deci()">.</button>
+        <button class="opp" onclick="equi()">=</button>
+        <button class="opp" onclick="opp('÷')">÷</button>
+      </tr>
+      <tr>
+        <button class="spc" onclick="left()">&lt</button>
+        <button class="spc" onclick="right()">&gt</button>
+        <p class="end">calculator<br>made by anna li</p>
+      </tr>
+    </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
