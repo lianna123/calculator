@@ -5,10 +5,10 @@ html {
 }
 
 .outer {
-  background-color: #ffe9d1;
+  background-color: #fff9f0;
   width: 410px;
   height: 725px;
-  border: 2px solid #624a40;
+  border: 2px solid #654343;
   border-radius: 30px;
   margin: 50px;
 }
@@ -80,7 +80,7 @@ table {
 }
 
 .end {
-  color: #624a40;
+  color: #654343;
   margin-top: -17%;
   margin-right: 5%;
   text-align: right;
